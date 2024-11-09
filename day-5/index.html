@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>My App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <div class="container">
+      <label for="">Username:</label>
+      <input type="text" value="" id="username">
+      <label for="">Password:</label>
+      <input type="password" value="" id="password">
+      <button onclick="fnValidate()">Submit</button>
+    </div> -->
+
+    <div class="container">
+      <form onsubmit="fnValidateSignUpForm(event)">
+        <label for="">First Name:</label>
+        <input type="text" value="" name="fname">
+        <span class="error fname-empty">This field is empty</span>
+        <span class="error fname-invalid">This field should contain at least 5characters </span>
+        <br>
+        <br>
+        <label for="">Last Name:</label>
+        <input type="text" value="" name="lname">
+        <span class="error lname-empty">This field is empty</span>
+        <span class="error lname-invalid">This field should contain at least 5characters </span>
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <input type="text" value="" name="email">
+        <br>
+        <br>
+        <label for="">Password:</label>
+        <input type="password" value="" name="password">
+        <br>
+        <br>
+        <label for="">Confirm Password:</label>
+        <input type="password" value="" name="confirmPassword">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

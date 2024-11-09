@@ -1,0 +1,27 @@
+label {
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 200px;
+  }
+  
+  button {
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .error {
+    display: block;
+    font-size: 14px;
+    color: red;
+    width: 350px;
+    text-align: center;
+    display: none;
+  }
